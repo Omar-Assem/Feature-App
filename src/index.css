@@ -1,0 +1,557 @@
+/* vendor */
+:root {
+  bg-color: #082e21;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* @import "tailwindcss"; */
+body {
+  font-family: reguler;
+  overflow-x: hidden;
+  position: relative;
+}
+h2 {
+  font-family: bold;
+}
+p {
+  font-family: tin;
+}
+.sec {
+  animation: slide-in 1s ease;
+}
+/* animation slide */
+@keyframes slide-in {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes slide-text {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@keyframes bon {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes move {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30%);
+  }
+  75% {
+    transform: translateX(-30%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* end animation */
+
+/* header */
+.navbar-brand img {
+  width: 160px;
+  height: 36px;
+}
+li span {
+  margin: 0 10px;
+  font-size: larger;
+}
+
+#wishlist,
+#cart {
+  position: relative;
+}
+.num {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 8px;
+  background-color: #082e21;
+  color: white;
+  padding: 1px 4px;
+  border-radius: 50%;
+}
+.num1 {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  font-size: 8px;
+  background-color: #082e21;
+  color: white;
+  padding: 1px 4px;
+  border-radius: 50%;
+}
+/* swiper */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  color: #082e21;
+
+  border-radius: 50%;
+  font-size: 1em;
+  padding: 10px;
+}
+.swiper-text {
+  p,
+  h3 {
+    animation: slide-text 2s ease-in-out;
+  }
+  a {
+    animation: bon 2s ease-in-out;
+  }
+}
+/* end swiper */
+/* sign-in */
+.input {
+  width: 25%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-transform: capitalize;
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.dir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  li {
+    list-style: none;
+  }
+
+  li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+  }
+}
+
+#home::before {
+  content: "/";
+  margin-right: 10px;
+}
+
+.btn button {
+  background-color: #082e21;
+  width: 100%;
+  height: 60px;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0 100px;
+  border: none;
+  transition: 1s ease;
+  border-radius: 12px;
+}
+
+.btn button:hover {
+  background: #fff;
+  color: #082e21;
+  border: 1px solid #082e21;
+}
+
+.log-in h6 {
+  font-weight: 300;
+}
+
+.form-check {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.log-in h6,
+.log-in a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* home */
+
+/* cards-header */
+.continar .row .card {
+  width: 480px;
+  height: 260px;
+  overflow: hidden;
+}
+.continar .row .card img {
+  position: relative;
+  transition: 3s;
+}
+.continar .row .card img:hover {
+  transform: scale(1.1);
+}
+.continar .row .card h2 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.continar .row .card p {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  transform: translateY(-50%);
+}
+
+.continar .row .card button,
+.continar .row .card a {
+  position: absolute;
+  left: 0;
+  top: 90%;
+  transform: translateY(-50%);
+  background-color: black;
+  color: #fff;
+  padding: 0 15px;
+  height: 40px;
+  width: 110px;
+  font-size: 12px;
+  outline: none;
+  border: transparent;
+  transition: 1s;
+}
+.continar .row .card a {
+  background: none;
+  color: #000;
+  font-size: 14px;
+}
+.continar .row .card a:hover {
+  color: #0a5d5d;
+}
+#x button:hover,
+.continar .row .card button:hover {
+  background-color: #aa8453;
+}
+
+.card span {
+  color: #0a5d5d;
+}
+#x span {
+  color: #aa8453;
+}
+#x h2,
+#x p {
+  color: #fff;
+}
+#x button {
+  background: #fff;
+  color: #000;
+}
+
+/* items detalis */
+.item {
+  margin: 100px 20px;
+}
+.items img {
+  width: 26px;
+  height: 26px;
+  animation-play-state: paused;
+}
+.deteils:hover img {
+  animation: move 1s ease-in-out;
+}
+
+.items h2 {
+  font-size: 16px;
+}
+.items p {
+  font-size: 12px;
+}
+.word h2 {
+  font-size: 35px;
+}
+.word {
+  margin: 0 100px;
+}
+
+/* /////////////////////////////////// */
+/* product */
+.wish .card img:first-child,
+.row .card img:first-child {
+  opacity: 1;
+  position: relative;
+  height: 335px;
+  transition: 1s ease-in-out;
+}
+.wish .card img:last-child,
+.row .card img:last-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 335px;
+  opacity: 0;
+  transition: 1s ease-in-out;
+}
+
+.col-lg-2:hover .card img:first-child {
+  opacity: 0;
+  object-fit: cover;
+}
+
+.col-lg-2:hover .card img:last-child {
+  opacity: 1;
+  object-fit: cover;
+}
+.card {
+  position: relative;
+  width: 167px;
+  height: 335px;
+  object-fit: cover;
+  flex-wrap: wrap;
+}
+.card .icon {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+
+  right: 25%;
+  top: 10px;
+}
+.card .icon span {
+  background: #fff;
+  padding: 10px;
+  color: #082e21;
+  border: #082e21 1px solid;
+  display: inline-block;
+  font-size: 17px;
+  text-align: center;
+  margin-top: 5px;
+  transition: 1s;
+  opacity: 0;
+}
+.card .icon .active,
+.card .icon span:hover {
+  background: #082e21;
+  color: #fff;
+}
+.card:hover .icon span {
+  opacity: 1;
+}
+.card .icon span:active {
+  background: #082e21;
+  color: #fff;
+}
+.card .offers span {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 28px;
+  width: 50px;
+  background: linear-gradient(135deg, #ac0404, #e74109c3);
+  color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  z-index: 99;
+}
+.card .offers span .des {
+  opacity: 0;
+}
+.card-body {
+  z-index: 1;
+}
+.row {
+  width: 100vw;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+}
+.card-etxt {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.card-etxt p {
+  font-size: 10px;
+  font-weight: 100;
+  color: gray;
+  flex-wrap: wrap;
+  width: 200px;
+}
+.name p {
+  color: gray;
+  font-size: 12px;
+}
+.card-txt p {
+  font-size: 14px;
+  width: 500px;
+}
+.card-txt button {
+  color: #000;
+  border: #000;
+}
+.card-txt button:hover {
+  color: #fff;
+}
+.card4 img {
+  overflow: hidden;
+  transition: 3s ease-in;
+  object-fit: cover;
+}
+.carousel-item {
+  overflow: hidden;
+}
+.carousel-item:hover .card4 img {
+  scale: 1.1;
+  overflow: hidden;
+}
+.continar .row .col-md-2 img {
+  object-fit: cover;
+  transition: 3s ease-in;
+}
+
+.continar .row .col-md-2 img:hover {
+  scale: 1.1;
+}
+.card6 {
+  width: 20%;
+}
+
+.sec {
+  margin-bottom: 100px;
+}
+h4 a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* //////////////////////////////////// */
+/* footer */
+.footer .col-lg-2 {
+  margin: 50px 10px;
+}
+.footer .col-lg-2 img {
+  width: 190px;
+  height: 47px;
+}
+h4 a:hover {
+  color: #0a5d5d;
+}
+.footer h4 a {
+  font-size: 20px;
+  margin: 50px 0;
+}
+.footer input {
+  padding: 10px;
+}
+.icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.5rem;
+}
+.icons i:hover {
+  color: #082e21;
+}
+#up {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #082e21;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+#up .show {
+  display: block;
+}
+#up i {
+  font-size: 25px;
+  transform: translateY(50%);
+}
+
+/* ////////////////////////////////// */
+/* product */
+.tags ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 30px;
+  li {
+    list-style: none;
+  }
+  li {
+    font-size: 500;
+    font-weight: 800;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  li .active,
+  li:hover {
+    border-bottom: #000 solid 4px;
+  }
+}
+
+.content > div {
+  padding: 20px;
+  font-size: 14px;
+  color: gray;
+}
+.content > div:not(:first-child) {
+  display: none;
+}
+.txt p a,
+.txt p {
+  font-size: 12px;
+  color: gray;
+}
+.txt p strong {
+  font-size: 16px;
+  color: #000;
+}
+.txt p a:hover {
+  color: #082e21;
+}
+
+.mora img {
+  width: 190px;
+  height: 30px;
+  margin: 20px 0 10px;
+}
+.knowlage ul li {
+  font-size: 12px;
+  color: gray;
+}
