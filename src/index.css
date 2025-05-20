@@ -20,9 +20,7 @@ h2 {
 p {
   font-family: tin;
 }
-.sec {
-  animation: slide-in 1s ease;
-}
+
 /* animation slide */
 @keyframes slide-in {
   0% {
@@ -170,6 +168,7 @@ p {
   background: #fff;
   color: #000;
 }
+
 
 /* /////////////////////////////////// */
 /* product */

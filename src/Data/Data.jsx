@@ -53,7 +53,6 @@ export let Dheader = {
     {
       title: "Wishlist",
       url: "/Wishlist",
-  
     },
     {
       title: "Logout",
@@ -152,13 +151,13 @@ export let Dcards3 = [
   },
 ];
 export let Dcursle = [
-{
-  img : "blog-5_768x.webp",
-  title : "Pellensque nunc condentum",
-  p : "Oct 22,2023",
-  span : "By Vinova Theme",
-  desc : "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
-  button : "Read MORE",
+  {
+    img: "blog-5_768x.webp",
+    title: "Pellensque nunc condentum",
+    p: "Oct 22,2023",
+    span: "By Vinova Theme",
+    desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
+    button: "Read MORE",
   },
   {
     img: "blog-6_768x.webp",
@@ -184,12 +183,12 @@ export let Dcursle = [
     desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
     button: "Read MORE",
   },
-{
-  img: "blog-9_768x.webp",
-  title: "Pellensque nunc condentum",
-  p: "Oct 22,2023",
-  span: "By Vinova Theme",
-  desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
+  {
+    img: "blog-9_768x.webp",
+    title: "Pellensque nunc condentum",
+    p: "Oct 22,2023",
+    span: "By Vinova Theme",
+    desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
     button: "Read MORE",
   },
   {
@@ -207,7 +206,7 @@ export let Dcursle = [
     span: "By Vinova Theme",
     desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
   },
-  
+
   {
     img: "blog-12_768x.webp",
     title: "Pellensque nunc condentum",
@@ -216,14 +215,4 @@ export let Dcursle = [
     desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
     button: "Read MORE",
   },
-  {
-    img: "blog-13_768x.webp",
-    title: "Pellensque nunc condentum",
-    p: "Oct 22,2023",
-    span: "By Vinova Theme",
-    desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
-    button: "Read MORE",
-  },
-
-  
 ];
