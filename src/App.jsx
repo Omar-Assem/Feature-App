@@ -2,45 +2,45 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from 'react-router-dom'; 
-import {LayOut} from './LayOut.jsx';
-import Home from './Pages/Home/Home.jsx';
-import {Login} from './Pages/Auth/Login.jsx';
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { LayOut } from "./LayOut.jsx";
+import Home from "./Pages/Home/Home.jsx";
+import { Login } from "./Pages/Auth/Login.jsx";
 
-import "swiper/modules"
+import "swiper/modules";
 
 import Register from "./Pages/Auth/Register";
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <LayOut />,
-    children: [
-      {
-        index: true,
-        element: <Home />
-      },
-      // {
-      //   path: 'product',
-      //   element: <Product />
-      // },
-    ]
-  },
-  {
-    path: 'login',
-    element: <Login />
-  },
-  {
-    path: 'register',
-    element: <Register />
-  },
-]);
-
+import Error from "./Pages/Error/Error.jsx";
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <LayOut />,
+      children: [
+        {
+          index: true,
+          element: <Home />,
+        },
+        // {
+        //   path: 'product',
+        //   element: <Product />
+        // },
+      ],
+    },
+    {
+      path: "login",
+      element: <Login />,
+    },
+    {
+      path: "register",
+      element: <Register />,
+    },
+  ],
+  { path: "*", element: <Error /> }
+);
 
 function App() {
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router} />;
 }
 
 export default App;

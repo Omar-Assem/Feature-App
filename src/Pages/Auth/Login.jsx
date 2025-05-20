@@ -4,8 +4,8 @@ export const Login = () => {
   return (
     <div className="d-flex flex-column justify-content-center align-items-center vh-100 px-3">
       {/* الهيدر */}
-      <div className="key d-flex justify-content-center align-items-center mb-4">
-        <h2 className="me-3">Account</h2>
+      <div className="d-flex justify-content-center align-items-center mb-4">
+        <h2 className="me-3 fw-bold">Account</h2>
         <nav>
           <ul className="list-unstyled d-flex gap-3 mb-0">
             <li>
@@ -16,7 +16,6 @@ export const Login = () => {
             <li>
               <a
                 href="sign-in.html"
-                id="home"
                 className="text-decoration-none text-dark"
               >
                 Account
@@ -54,21 +53,23 @@ export const Login = () => {
         <div className="form-check mb-3">
           <input className="form-check-input" type="checkbox" id="gridCheck" />
           <label className="form-check-label" htmlFor="gridCheck">
-            <i className="fa-solid fa-envelope"></i> Forgot your Password?
+            <i className="fa-solid fa-envelope me-2"></i> Forgot your Password?
           </label>
         </div>
 
         <div className="text-center mb-4">
           <h6>
-            If you have an account, please
-            <Link to={"/register"}>Register Here</Link>
+            If you have an account, please{" "}
+            <Link to="/register" className="text-decoration-none">
+              Register Here
+            </Link>
           </h6>
         </div>
 
         <button
           type="submit"
           id="log"
-          className="btn btn- btn-lg w-100"
+          className="btn btn-lg w-100"
           style={{
             backgroundColor: "#082e21",
             borderColor: "#082e21",
