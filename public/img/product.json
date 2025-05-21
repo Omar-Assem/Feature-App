@@ -1,445 +1,442 @@
 [
-    {
-        "name": "Fiamond Halo Stud Doneco",
-        "price": "$375.00",
-        "offers":"-54%",
-        "img":"40_768x.png",
-        "overlay":"40a_768x",
-        "category": "Armchair, Bathroom, Bedroom, Clocks, Flash Deals, Flower vase, Hanging Light, Home page, Kitchen, Sofa, Tables",
-        "SKU":"B-002",
-        "tag":"13.7’ x 6.3' x 4’, White"
-
-    }
-    ,
-    {
-        "name": "Biamond Halo Stud Aenean",
-        "price": "$300.00",
-        "offers":false,
-        "img":"Biamond Halo Stud Aenean",
-        "overlay":"Biamond Halo Stud Aenean(1)",
-        "category": "Armchair, Bathroom, Bedroom, Hanging Light, Home page, Planter, Sofa, Tables",
-        "SKU":"E-00096",
-        "tag":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, 28.7’ x 16.3' x 10’, blue, Red"
-        
-    }
-    ,
-    {
-        "name": "Diamond Halo Stud Aenean",
-        "price": "$369.00",
-        "offers":false,
-        "img":"img/Diamond Halo Stud Aenean",
-        "overlay":"img/Diamond Halo Stud Aenean(1)",
-        "category": "Armchair, Bathroom, Bedroom, Flower vase, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-        "SKU":"E-00091",
-        "tag":"13.7’ x 6.3' x 4’, Black, White"
-        
-    }
-    ,
-    {
-        "name": "Diamond Halo Stud Cum",
-        "price": "$300.00",
-        "offers":"-54%",
-        "img":"img/Diamond Halo Stud Cum",
-        "overlay":"img/Diamond Halo Stud Cum(1)",
-        "category": "Armchair, Bathroom, Bedroom, Bookshelf, Clocks, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables, Upsell",
-        "SKU":"E-00214",
-        "tag":"Pink, Red, White"
-        
-    }
-    ,
-    {
-        "name": "Acamond Halo Stud Conse",
-        "price": "$198.00",
-        "offers":"-64%",
-        "img":"Acamond_Halo_Stud_Conse(1)",
-        "overlay":"Acamond_Halo_Stud_Conse(2)",
-        "category": "Armchair, Bathroom, Clocks, Flash Deals, Hanging Light, Home page, Planter, Sofa, Tables",
-        "SKU":"E-00024",
-        "tag":"Pink"
-    }
-    ,
-    {
-        "name": "Ciamond Halo Stud Cum",
-        "price": "$300.00",
-        "offers":false,
-        "img":"img/Ciamond Halo Stud Cum",
-        "overlay":"img/Ciamond Halo Stud Cum(1)",
-        "category": "Armchair, Bathroom, Bedroom, Clocks, Flower vase, Hanging Light, Home page, Planter, Sofa, Tables, Upsell",
-        "SKU":"E-00228",
-        "tag":"23.7’ x 12.3' x 8’, White"
-        }
-        ,
-        {
-            "name": "Diamond Halo Stud Amet",
-            "price": "$210.00",
-            "offers":"-45%",
-            "img":"img/Diamond Halo Stud Amet",
-            "overlay":"img/Diamond Halo Stud Amet(1)",
-            "category": "Armchair, Bathroom, Bookshelf, Clocks, Flash Deals, Home page, Kitchen, Planter, Sofa, Tables, Upsell",
-            "SKU":"E-00086",
-            "tag":"Pink, Red, White"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Dolor",
-                "price": "$269.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Dolor",
-                "overlay":"img/Diamond Halo Stud Dolor(1)",
-                "category": "Armchair, Bedroom, Bookshelf, Flower vase, Hanging Light, Home page, Planter, Sofa, Tables, Upsell",
-                "SKU":"E-00191",
-                "tag":"Gray, Pink, White"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Donec",
-                "price": "$247.00",
-                "offers":"-68%",
-                "img":"img/Diamond Halo Stud Donec",
-                "overlay":"img/Diamond Halo Stud Donec(1)",
-                "category": "Armchair, Bathroom, Bookshelf, Clocks, Flash Deals, Flower vase, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00120",
-                "tag":"13.7’ x 6.3' x 4’, White"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Earrings",
-                "price": "$472.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Earrings",
-                "overlay":"img/Diamond Halo Stud Earrings(1)",
-                "category": "Armchair, Bathroom, Clocks, Hanging Light, Home page, Kitchen, Planter, Sofa, Tables, Upsell",
-                "SKU":"E-00048",
-                "tag":"Gray, Red, White"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Eageter",
-                "price": "$869.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Eageter",
-                "overlay":"img/Diamond Halo Stud Eageter(1)",
-                "category": "Bathroom, Clocks, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00311",
-                "tag":"Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Magnis",
-                "price": "$325.00",
-                "offers":"-20%",
-                "img":"img/Diamond Halo Stud Magnis",
-                "overlay":"img/Diamond Halo Stud Magnis(1)",
-                "category": "Armchair, Clocks, Flash Deals, Home page, Living Room, Planter, Sofa, Tables, Upsell",
-                "SKU":"SHT-1",
-                "tag":"blue, Gray, Pink, Red, White, x, xl"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Massa",
-                "price": "$269.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Massa",
-                "overlay":"img/Diamond Halo Stud Massa(1)",
-                "category": "Armchair, Bathroom, Bedroom, Clocks, Home page, Kitchen, Planter, Sofa, Tables, Upsell",
-                "SKU":"E-00120",
-                "tag":"Gray, Pink, White"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Ligula",
-                "price": "$569.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Ligula",
-                "overlay":"img/Diamond Halo Stud Ligula(1)",
-                "category": "Armchair, Bathroom, Bookshelf, Flower vase, Hanging Light, Home page, Kitchen, Planter, Sofa, Tables, Upsell",
-                "SKU":"E-00359",
-                "tag":"Gray, Pink"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Massa",
-                "price": "$450.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Massa#",
-                "overlay":"img/Diamond Halo Stud Massa#2",
-                "category": "Armchair, Bathroom, Bedroom, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"BGH-1",
-                "tag":"Gray, Pink"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Monte",
-                "price": "$236.00",
-                "offers":"-75%",
-                "img":"img/Diamond Halo Stud Monte",
-                "overlay":"img/Diamond Halo Stud Monte(1)",
-                "category": "Armchair, Bathroom, Bedroom, Clocks, Flash Deals, Flower vase, Home page, Kitchen, Sofa, Tables",
-                "SKU":"E-00239",
-                "tag":"Gray, Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Natoque",
-                "price": "$479.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Natoque",
-                "overlay":"img/Diamond Halo Stud Natoque(1)",
-                "category": "Armchair, Bathroom, Bedroom, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00263",
-                "tag":"Gray, Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Nulla",
-                "price": "$789.00",
-                "offers":"-1",
-                "img":"img/Diamond Halo Stud Nulla",
-                "overlay":"img/Diamond Halo Stud Nulla(1)",
-                "category": "Armchair, Bathroom, Bookshelf, Flash Deals, Flower vase, Hanging Light, Home page, Kitchen, Planter, Sofa, Tables",
-                "SKU":"E-00167",
-                "tag":"Pink, Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Quis",
-                "price": "$736.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Quis",
-                "overlay":"img/Diamond Halo Stud Quis(1)",
-                "category": "Armchair, Bathroom, Bookshelf, Clocks, Home page, Kitchen, Living Room, Sofa, Tables",
-                "SKU":"E-00383",
-                "tag":"Pink, Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Ridicu",
-                "price": "$147.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Ridicu",
-                "overlay":"img/Diamond Halo Stud Ridicu(1)",
-                "category": "Armchair, Bathroom, Bedroom, Bookshelf, Hanging Light, Home page, Kitchen, Planter, Sofa, Tables",
-                "SKU":"E-00335",
-                "tag":"Gray, Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Sem",
-                "price": "$850.00",
-                "offers":"-1%",
-                "img":"img/Diamond Halo Stud Sem",
-                "overlay":"img/Diamond Halo Stud Sem(1)",
-                "category": "Armchair, Bookshelf, Clocks, Flash Deals, Home page, Kitchen, Sofa, Tables",
-                "SKU":"E-00407",
-                "tag":"Gray, Pink, White"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Sociis",
-                "price": "$956.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Sociis",
-                "overlay":"img/Diamond Halo Stud Sociis(1)",
-                "category": "Armchair, Bathroom, Bedroom, Bookshelf, Clocks, Flower vase, Hanging Light, Home page, Planter, Sofa, Tables",
-                "SKU":"E-00287",
-                "tag":"Red"
-            }
-            ,
-            {
-                "name": "Diamond Halo Stud Sociis",
-                "price": "$200.00",
-                "offers":false,
-                "img":"img/Diamond Halo Stud Sociis#",
-                "overlay":"img/Diamond Halo Stud Sociis#2",
-                "category": "Armchair, Bathroom, Bookshelf, Clocks, Hanging Light, Home page, Planter, Sofa, Tables",
-                "SKU":"THJ-1",
-                "tag":"Gray, Pink"
-            }
-            ,
-            {
-                "name": "Eiamond Halo Stud Donec",
-                "price": "$499.00",
-                "offers":"-35%",
-                "img":"img/Eiamond Halo Stud Donec",
-                "overlay":"img/Eiamond Halo Stud Donec(1)",
-                "category": "Armchair, Bathroom, Bedroom, Clocks, Flash Deals, Flower vase, Home page, Kitchen, Planter, Tables",
-                "SKU":"E-001",
-                "tag":"13.7’ x 6.3' x 4’, White"
-            }
-            ,
-            {
-                "name": "Fiamond Halo Stud Cum",
-                "price": "$654.00",
-                "offers":false,
-                "img":"img/Fiamond Halo Stud Cum",
-                "overlay":"img/Fiamond Halo Stud Cum(1)",
-                "category": "Bathroom, Bedroom, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00214",
-                "tag":"Pink, Red"
-            }
-            ,
-            {
-                "name": "Giamond Halo Stud Aenean",
-                "price": "$494.00",
-                "offers":false,
-                "img":"img/Giamond Halo Stud Aenean",
-                "overlay":"img/Giamond Halo Stud Aenean(1)",
-                "category": "Armchair, Bathroom, Bedroom, Bookshelf, Flower vase, Hanging Light, Home page, Kitchen, Planter, Sofa, Tables",
-                "SKU":"E-00096",
-                "tag":"Black, Pink"
-            }
-            ,
-            {
-                "name": "Giamond Talo Stud Aenean",
-                "price": "$147.00",
-                "offers":"-5%",
-                "img":"img/Giamond Talo Stud Aenean",
-                "overlay":"img/Giamond Talo Stud Aenean(1)",
-                "category": "Armchair, Bathroom, Bedroom, Bookshelf, Flash Deals, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Sofa, Tables",
-                "SKU":"G-001",
-                "tag":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, 28.7’ x 16.3' x 10’, blue, Red"
-            }
-            ,
-            {
-                "name": "Hiamond Halo Stud Cum",
-                "price": "$300.00",
-                "offers":false,
-                "img":"img/Hiamond Halo Stud Cum",
-                "overlay":"img/Hiamond Halo Stud Cum(1)",
-                "category": "Armchair, Bookshelf, Clocks, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00214",
-                "tag":"Pink, White"
-            }
-            ,
-            {
-                "name": "Hiamond Halo Stud Donec",
-                "price": "$327.00",
-                "offers":"-57%",
-                "img":"img/Hiamond Halo Stud Donec",
-                "overlay":"img/Hiamond Halo Stud Donec(1)",
-                "category": "Armchair, Bedroom, Bookshelf, Clocks, Flash Deals, Flower vase, Home page, Sofa, Tables",
-                "SKU":"F-001",
-                "tag":"13.7’ x 6.3' x 4’, White"
-            }
-            ,
-            {
-                "name": "Kiamond Halo Stud Cum",
-                "price": "$120.00",
-                "offers":"-79%",
-                "img":"img/Kiamond Halo Stud Cum",
-                "overlay":"img/Kiamond Halo Stud Cum(1)",
-                "category": "Armchair, Bathroom, Bedroom, Flash Deals, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Sofa, Tables",
-                "SKU":"E-00214",
-                "tag":"Pink, Red, White"
-            }
-            ,
-            {
-                "name": "Liamond Halo Stud Aenean",
-                "price": "$620.00",
-                "offers":false,
-                "img":"img/Liamond Halo Stud Aenean",
-                "overlay":"img/Liamond Halo Stud Aenean(1)",
-                "category": "Armchair, Bedroom, Bookshelf, Clocks, Flash Deals, Flower vase, Home page, Kitchen, Planter, Sofa, Tables",
-                "SKU":"E-00096",
-                "tag":"Black, Red"
-            }
-            ,
-            {
-                "name": "Liamond Halo Stud Cum",
-                "price": "$450.00",
-                "offers":false,
-                "img":"img/Liamond Halo Stud Cum",
-                "overlay":"img/Liamond Halo Stud Cum(1)",
-                "category": "Armchair, Bathroom, Bookshelf, Hanging Light, Home page, Kitchen, Living Room, Sofa, Tables",
-                "SKU":"E-1045",
-                "tag":"23.7’ x 12.3' x 8’, White"
-            }
-            ,
-            {
-                "name": "Piamond Halo Stud Aenean",
-                "price": "$415.00",
-                "offers":false,
-                "img":"img/Piamond Halo Stud Aenean",
-                "overlay":"img/Piamond Halo Stud Aenean(1)",
-                "category": "Bathroom, Bedroom, Bookshelf, Clocks, Flower vase, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00096",
-                "tag":"Black, Orange, Pink"
-            }
-            ,
-            {
-                "name": "Qiamond Halo Stud Aenean",
-                "price": "$459.00",
-                "offers":"-8%",
-                "img":"img/Qiamond Halo Stud Aenean",
-                "overlay":"img/Qiamond Halo Stud Aenean(1)",
-                "category": "Bathroom, Bookshelf, Clocks, Flash Deals, Flower vase, Hanging Light, Home page, Planter, Sofa, Tables",
-                "SKU":"E-00096",
-                "tag":"Black, Pink"
-            }
-            ,
-            {
-                "name": "Riamond Halo Stud Cum",
-                "price": "$416.00",
-                "offers":false,
-                "img":"img/Riamond Halo Stud Cum",
-                "overlay":"img/Riamond Halo Stud Cum(1)",
-                "category": "Bedroom, Bookshelf, Clocks, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"E-00214",
-                "tag":"Pink"
-            }
-            ,
-            {
-                "name": "Tiamond Halo Stud Aenean",
-                "price": "$365.00",
-                "offers":"-3%",
-                "img":"img/Tiamond Halo Stud Aenean",
-                "overlay":"img/Tiamond Halo Stud Aenean(1)",
-                "category": "Bathroom, Bedroom, Bookshelf, Clocks, Flash Deals, Hanging Light, Home page, Kitchen, Living Room, Sofa, Tables",
-                "SKU":"E-00096",
-                "tag":"Red"
-            }
-            ,
-            {
-                "name": "Tiamond Halo Stud Cum",
-                "price": "$300.00",
-                "offers":false,
-                "img":"img/Tiamond Halo Stud Cum",
-                "overlay":"img/Tiamond Halo Stud Cum(1)",
-                "category": "Bathroom, Bedroom, Bookshelf, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":false,
-                "tag":"23.7’ x 12.3' x 8’, White"
-            }
-            ,
-            {
-                "name": "Uiamond Halo Stud Cum",
-                "price": "$628.00",
-                "offers":false,
-                "img":"img/Uiamond Halo Stud Cum",
-                "overlay":"img/Uiamond Halo Stud Cum(1)",
-                "category": "Armchair, Bookshelf, Clocks, Flower vase, Hanging Light, Home page, Planter, Sofa, Tables",
-                "SKU":"E-00214",
-                "tag":"White"
-            }
-            ,
-            {
-                "name": "Ziamond Halo Stud Cum",
-                "price": "$369.00",
-                "offers":false,
-                "img":"img/Ziamond Halo Stud Cum",
-                "overlay":"img/Ziamond Halo Stud Cum(1)",
-                "category": "Bathroom, Bedroom, Bookshelf, Clocks, Home page, Living Room, Planter, Sofa, Tables",
-                "SKU":"H-0016",
-                "tag":"13.7’ x 6.3' x 4’, 23.7’ x 12.3' x 8’, White"
-            }
-            ,
-            {
-                "name": "Viamond Halo Stud Donec",
-                "price": "$409.00",
-                "offers":"-47%",
-                "img":"img/Viamond Halo Stud Donec",
-                "overlay":"img/Viamond Halo Stud Donec(1)",
-                "category": "Armchair, Bathroom, Bookshelf, Clocks, Flash Deals, Flower vase, Hanging Light, Home page, Kitchen, Living Room, Planter, Sofa, Tables",
-                "SKU":"H-001",
-                "tag":"13.7’ x 6.3' x 4’, White"
-            }
+  {
+    "id":1,
+    "name": "Fiamond Halo Stud Doneco",
+    "price": "$375.00",
+    "offers": "-54%",
+    "img": "img/40_768x.webp",
+    "overlay": "img/40a_768x.webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Clocks", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Sofa", "Tables"],
+    "SKU": "B-002",
+    "tag": ["13.7’ x 6.3' x 4’", "White"]
+  },
+  {
+    "id":2,
+    "name": "Biamond Halo Stud Aenean",
+    "price": "$300.00",
+    "offers": false,
+    "img": "img/Biamond Halo Stud Aenean.webp",
+    "overlay": "img/Biamond Halo Stud Aenean(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Hanging Light, Home page", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00096",
+    "tag": ["13.7’ x 6.3' x 4’", "23.7’ x 12.3' x 8’", "28.7’ x 16.3' x 10’", "blue", "Red"]
+  },
+  {
+    "id":3,
+    "name": "Diamond Halo Stud Aenean",
+    "price": "$369.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Aenean.webp",
+    "overlay": "img/Diamond Halo Stud Aenean(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Flower vase", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00091",
+    "tag": ["13.7’ x 6.3' x 4’", "Black", "White"]
+  },
+  {
+    "id":4,
+    "name": "Diamond Halo Stud Cum",
+    "price": "$300.00",
+    "offers": "-54%",
+    "img": "img/Diamond Halo Stud Cum.webp",
+    "overlay": "img/Diamond Halo Stud Cum(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Bookshelf", "Clocks", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00214",
+    "tag": ["Pink", "Red", "White"]
+  },
+  {
+    "id":5,
+    "name": "Acamond Halo Stud Conse",
+    "price": "$198.00",
+    "offers": "-64%",
+    "img": "/public/img/Acamond_Halo_ Stud_Conse_(1).webp",
+    "overlay": "/public/img/Acamond_Halo_ Stud_Conse_(2).webp",
+    "category": ["Armchair", "Bathroom", "Clocks", "Flash Deals", "Hanging Light", "Home page", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00024",
+    "tag": ["Pink"]
+  },
+  {
+    "id":6,
+    "name": "Ciamond Halo Stud Cum",
+    "price": "$300.00",
+    "offers": false,
+    "img": "img/Ciamond Halo Stud Cum.webp",
+    "overlay": "img/Ciamond Halo Stud Cum(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Clocks", "Flower vase", "Hanging Light", "Home page", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00228",
+    "tag": ["23.7’ x 12.3' x 8’", "White"]
+  },
+  {
+    "id":7,
+    "name": "Diamond Halo Stud Amet",
+    "price": "$210.00",
+    "offers": "-45%",
+    "img": "img/Diamond Halo Stud Amet.webp",
+    "overlay": "img/Diamond Halo Stud Amet(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Clocks", "Flash Deals", "Home page", "Kitchen", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00086",
+    "tag": ["Pink", "Red", "White"]
+  },
+  {
+    "id":8,
+    "name": "Diamond Halo Stud Dolor",
+    "price": "$269.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Dolor.webp",
+    "overlay": "img/Diamond Halo Stud Dolor(1).webp",
+    "category": ["Armchair", "Bedroom", "Bookshelf", "Flower vase", "Hanging Light", "Home page", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00191",
+    "tag": ["Gray", "Pink", "White"]
+  },
+  {
+    "id":9,
+    "name": "Diamond Halo Stud Donec",
+    "price": "$247.00",
+    "offers": "-68%",
+    "img": "img/Diamond Halo Stud Donec.webp",
+    "overlay": "img/Diamond Halo Stud Donec(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Clocks", "Flash Deals", "Flower vase", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00120",
+    "tag": ["13.7’ x 6.3' x 4’", "White"]
+  },
+  {
+    "id":10,
+    "name": "Diamond Halo Stud Earrings",
+    "price": "$472.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Earrings.webp",
+    "overlay": "img/Diamond Halo Stud Earrings(1).webp",
+    "category": ["Armchair", "Bathroom", "Clocks", "Hanging Light", "Home page", "Kitchen", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00048",
+    "tag": ["Gray", "Red", "White"]
+  },
+  {
+    "id":11,
+    "name": "Diamond Halo Stud Eageter",
+    "price": "$869.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Eageter.webp",
+    "overlay": "img/Diamond Halo Stud Eageter(1).webp",
+    "category": ["Bathroom", "Clocks", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00311",
+    "tag": ["Red"]
+  },
+  {
+    "id":12,
+    "name": "Diamond Halo Stud Magnis",
+    "price": "$325.00",
+    "offers": "-20%",
+    "img": "img/Diamond Halo Stud Magnis.webp",
+    "overlay": "img/Diamond Halo Stud Magnis(1).webp",
+    "category": ["Armchair", "Clocks", "Flash Deals", "Home page", "Living Room", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "SHT-1",
+    "tag": ["blue", "Gray", "Pink", "Red", "White", "x", "xl"]
+  },
+  {
+    "id":13,
+    "name": "Diamond Halo Stud Massa",
+    "price": "$269.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Massa.webp",
+    "overlay": "img/Diamond Halo Stud Massa(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Clocks", "Home page", "Kitchen", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00120",
+    "tag": ["Gray", "Pink", "White"]
+  },
+  {
+    "id":14,
+    "name": "Diamond Halo Stud Ligula",
+    "price": "$569.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Ligula.webp",
+    "overlay": "img/Diamond Halo Stud Ligula(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Planter", "Sofa", "Tables", "Upsell"],
+    "SKU": "E-00359",
+    "tag": ["Gray", "Pink"]
+  },
+  {
+    "id":15,
+    "name": "Diamond Halo Stud Massa",
+    "price": "$450.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Massaa.webp",
+    "overlay": "img/Diamond Halo Stud Massaa (2).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "BGH-1",
+    "tag": ["Gray", "Pink"]
+  },
+  {
+    "id":16,
+    "name": "Diamond Halo Stud Monte",
+    "price": "$236.00",
+    "offers": "-75%",
+    "img": "img/Diamond Halo Stud Monte.webp",
+    "overlay": "img/Diamond Halo Stud Monte(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Clocks", "Flash Deals", "Flower vase", "Home page", "Kitchen", "Sofa", "Tables"],
+    "SKU": "E-00239",
+    "tag": ["Gray", "Red"]
+  },
+  {
+    "id":17,
+    "name": "Diamond Halo Stud Natoque",
+    "price": "$479.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Natoque.webp",
+    "overlay": "img/Diamond Halo Stud Natoque(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00263",
+    "tag": ["Gray", "Red"]
+  },
+  {
+    "id":18,
+    "name": "Diamond Halo Stud Nulla",
+    "price": "$789.00",
+    "offers": "-1",
+    "img": "img/Diamond Halo Stud Nulla.webp",
+    "overlay": "img/Diamond Halo Stud Nulla(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00167",
+    "tag": ["Pink", "Red"]
+  },
+  {
+    "id":19,
+    "name": "Diamond Halo Stud Quis",
+    "price": "$736.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Quis.webp",
+    "overlay": "img/Diamond Halo Stud Quis(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Clocks", "Home page", "Kitchen", "Living Room", "Sofa", "Tables"],
+    "SKU": "E-00383",
+    "tag": ["Pink", "Red"]
+  },
+  {
+    "id":20,
+    "name": "Diamond Halo Stud Ridicu",
+    "price": "$147.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Ridicu.webp",
+    "overlay": "img/Diamond Halo Stud Ridicu(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Bookshelf", "Hanging Light", "Home page", "Kitchen", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00335",
+    "tag": ["Gray", "Red"]
+  },
+  {
+    "id":21,
+    "name": "Diamond Halo Stud Sem",
+    "price": "$850.00",
+    "offers": "-1%",
+    "img": "img/Diamond Halo Stud Sem.webp",
+    "overlay": "img/Diamond Halo Stud Sem(1).webp",
+    "category": ["Armchair", "Bookshelf", "Clocks", "Flash Deals", "Home page", "Kitchen", "Sofa", "Tables"],
+    "SKU": "E-00407",
+    "tag": ["Gray", "Pink", "White"]
+  },
+  {
+    "id":22,
+    "name": "Diamond Halo Stud Sociis",
+    "price": "$956.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Sociiss.webp",
+    "overlay": "img/Diamond Halo Stud Sociis(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Bookshelf", "Clocks", "Flower vase", "Hanging Light", "Home page", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00287",
+    "tag": ["Red"]
+  },
+  {
+    "id":23,
+    "name": "Diamond Halo Stud Sociis",
+    "price": "$200.00",
+    "offers": false,
+    "img": "img/Diamond Halo Stud Sociisq.webp",
+    "overlay": "img/Diamond Halo Stud Sociisq(1).webpp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Clocks", "Hanging Light", "Home page", "Planter", "Sofa", "Tables"],
+    "SKU": "THJ-1",
+    "tag": ["Gray", "Pink"]
+  },
+  {
+    "id":24,
+    "name": "Eiamond Halo Stud Donec",
+    "price": "$499.00",
+    "offers": "-35%",
+    "img": "img/Eiamond Halo Stud Donec.webp",
+    "overlay": "img/Eiamond Halo Stud Donec(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Clocks", "Flash Deals", "Flower vase", "Home page", "Kitchen", "Planter", "Tables"],
+    "SKU": "E-001",
+    "tag": ["13.7’ x 6.3' x 4’", "White"]
+  },
+  {
+    "id":25,
+    "name": "Fiamond Halo Stud Cum",
+    "price": "$654.00",
+    "offers": false,
+    "img": "img/Fiamond Halo Stud Cum.webp",
+    "overlay": "img/Fiamond Halo Stud Cum(1).webp",
+    "category": ["Bathroom", "Bedroom", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00214",
+    "tag": ["Pink", "Red"]
+  },
+  {
+    "id":26,
+    "name": "Giamond Halo Stud Aenean",
+    "price": "$494.00",
+    "offers": false,
+    "img": "img/Giamond Halo Stud Aenean.webp",
+    "overlay": "img/Giamond Halo Stud Aenean(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Bookshelf", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00096",
+    "tag": ["Black", "Pink"]
+  },
+  {
+    "id":27,
+    "name": "Giamond Talo Stud Aenean",
+    "price": "$147.00",
+    "offers": "-5%",
+    "img": "img/Giamond Talo Stud Aenean.webp",
+    "overlay": "img/Giamond Talo Stud Aenean(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Bookshelf", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Sofa", "Tables"],
+    "SKU": "G-001",
+    "tag": ["13.7’ x 6.3' x 4’", "23.7’ x 12.3' x 8’", "28.7’ x 16.3' x 10’", "blue", "Red"]
+  },
+  {
+    "id":28,
+    "name": "Hiamond Halo Stud Cum",
+    "price": "$300.00",
+    "offers": false,
+    "img": "img/Hiamond Halo Stud Cum.webp",
+    "overlay": "img/Hiamond Halo Stud Cum(1).webp",
+    "category": ["Armchair", "Bookshelf", "Clocks", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00214",
+    "tag": ["Pink", "White"]
+  },
+  {
+    "id":29,
+    "name": "Hiamond Halo Stud Donec",
+    "price": "$327.00",
+    "offers": "-57%",
+    "img": "img/Hiamond Halo Stud Donec.webp",
+    "overlay": "img/Hiamond Halo Stud Donec(1).webp",
+    "category": ["Armchair", "Bedroom", "Bookshelf", "Clocks", "Flash Deals", "Flower vase", "Home page", "Sofa", "Tables"],
+    "SKU": "F-001",
+    "tag": ["13.7’ x 6.3' x 4’", "White"]
+  },
+  {
+    "id":30,
+    "name": "Kiamond Halo Stud Cum",
+    "price": "$120.00",
+    "offers": "-79%",
+    "img": "img/Kiamond Halo Stud Cum.webp",
+    "overlay": "img/Kiamond Halo Stud Cum(1).webp",
+    "category": ["Armchair", "Bathroom", "Bedroom", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Sofa", "Tables"],
+    "SKU": "E-00214",
+    "tag": ["Pink", "Red", "White"]
+  },
+  {
+    "id":31,
+    "name": "Liamond Halo Stud Aenean",
+    "price": "$620.00",
+    "offers": false,
+    "img": "img/Liamond Halo Stud Aenean.webp",
+    "overlay": "img/Liamond Halo Stud Aenean(1).webp",
+    "category": ["Armchair", "Bedroom", "Bookshelf", "Clocks", "Flash Deals", "Flower vase", "Home page", "Kitchen", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00096",
+    "tag": ["Black", "Red"]
+  },
+  {
+    "id":32,
+    "name": "Liamond Halo Stud Cum",
+    "price": "$450.00",
+    "offers": false,
+    "img": "img/Liamond Halo Stud Cum.webp",
+    "overlay": "img/Liamond Halo Stud Cum(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Hanging Light", "Home page", "Kitchen", "Living Room", "Sofa", "Tables"],
+    "SKU": "E-1045",
+    "tag": ["23.7’ x 12.3' x 8’", "White"]
+  },
+  {
+    "id":33,
+    "name": "Piamond Halo Stud Aenean",
+    "price": "$415.00",
+    "offers": false,
+    "img": "img/Piamond Halo Stud Aenean.webp",
+    "overlay": "img/Piamond Halo Stud Aenean(1).webp",
+    "category": ["Bathroom", "Bedroom", "Bookshelf", "Clocks", "Flower vase", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00096",
+    "tag": ["Black", "Orange", "Pink"]
+  },
+  {
+    "id":34,
+    "name": "Qiamond Halo Stud Aenean",
+    "price": "$459.00",
+    "offers": "-8%",
+    "img": "img/Qiamond Halo Stud Aenean.webp",
+    "overlay": "img/Qiamond Halo Stud Aenean(1).webp",
+    "category": ["Bathroom", "Bookshelf", "Clocks", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00096",
+    "tag": ["Black", "Pink"]
+  },
+  {
+    "id":35,
+    "name": "Riamond Halo Stud Cum",
+    "price": "$416.00",
+    "offers": false,
+    "img": "img/Riamond Halo Stud Cum.webp",
+    "overlay": "img/Riamond Halo Stud Cum(1).webp",
+    "category": ["Bedroom", "Bookshelf", "Clocks", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00214",
+    "tag": ["Pink"]
+  },
+  {
+    "id":36,
+    "name": "Tiamond Halo Stud Aenean",
+    "price": "$365.00",
+    "offers": "-3%",
+    "img": "img/Tiamond Halo Stud Aenean.webp",
+    "overlay": "img/Tiamond Halo Stud Aenean(1).webp",
+    "category": ["Bathroom", "Bedroom", "Bookshelf", "Clocks", "Flash Deals", "Hanging Light", "Home page", "Kitchen", "Living Room", "Sofa", "Tables"],
+    "SKU": "E-00096",
+    "tag": ["Red"]
+  },
+  {
+    "id":37,
+    "name": "Tiamond Halo Stud Cum",
+    "price": "$300.00",
+    "offers": false,
+    "img": "img/Tiamond Halo Stud Cum.webp",
+    "overlay": "img/Tiamond Halo Stud Cum(1).webp",
+    "category": ["Bathroom", "Bedroom", "Bookshelf", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": false,
+    "tag": ["23.7’ x 12.3' x 8’", "White"]
+  },
+  {
+    "id":38,
+    "name": "Uiamond Halo Stud Cum",
+    "price": "$628.00",
+    "offers": false,
+    "img": "img/Uiamond Halo Stud Cum.webp",
+    "overlay": "img/Uiamond Halo Stud Cum(1).webp",
+    "category": ["Armchair", "Bookshelf", "Clocks", "Flower vase", "Hanging Light", "Home page", "Planter", "Sofa", "Tables"],
+    "SKU": "E-00214",
+    "tag": ["White"]
+  },
+  {
+    "id":39,
+    "name": "Ziamond Halo Stud Cum",
+    "price": "$369.00",
+    "offers": false,
+    "img": "img/Ziamond Halo Stud Cum.webp",
+    "overlay": "img/Ziamond Halo Stud Cum(1).webp",
+    "category": ["Bathroom", "Bedroom", "Bookshelf", "Clocks", "Home page", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "H-0016",
+    "tag": ["13.7’ x 6.3' x 4’", "23.7’ x 12.3' x 8’", "White"]
+  },
+  {
+    "id":40,
+    "name": "Viamond Halo Stud Donec",
+    "price": "$409.00",
+    "offers": "-47%",
+    "img": "img/Viamond Halo Stud Donec.webp",
+    "overlay": "img/Viamond Halo Stud Donec(1).webp",
+    "category": ["Armchair", "Bathroom", "Bookshelf", "Clocks", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Living Room", "Planter", "Sofa", "Tables"],
+    "SKU": "H-001",
+    "tag": ["13.7’ x 6.3' x 4’", "White"]
+  }
 ]
