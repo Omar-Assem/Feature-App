@@ -1,17 +1,17 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
-const Cat = () => {
+const HomeProducts = () => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await axios.get("img/product.json");
+        const res = await axios.get("/img/product.json");
         setData(res.data);
-        console.log(data);
       } catch (err) {
-        console.log(err);
+        console.error("Error fetching products:", err);
       }
     };
     fetchData();
@@ -19,10 +19,10 @@ const Cat = () => {
 
   return (
     <>
-  <div className="container">
+    <div className="container">
       <div className="row justify-content-center wish">
-        {data.map((e) => (
-          <div className=" col-md-3 col-sm-4 col-6 mb-4" key={e.id}>
+        {data.slice(0, 12).map((e) => (
+          <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-4" key={e.id}>
             <div
               className="card position-relative"
               style={{ width: "167px", height: "335px", overflow: "hidden" }}
@@ -55,8 +55,14 @@ const Cat = () => {
         ))}
       </div>
     </div>
+    <div className="d-flex justify-content-center">
+    <Link to={"/categories"}>
+    <button className="btn btn-outline-dark">View All</button>
+    </Link>
+    </div>
+   
     </>
   );
 };
 
-export default Cat;
+export default HomeProducts;

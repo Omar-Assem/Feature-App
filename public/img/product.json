@@ -2,8 +2,8 @@
   {
     "id":1,
     "name": "Fiamond Halo Stud Doneco",
-    "price": "$375.00",
-    "offers": "-54%",
+    "price":"375.00",
+    "offers": "-54",
     "img": "img/40_768x.webp",
     "overlay": "img/40a_768x.webp",
     "category": ["Armchair", "Bathroom", "Bedroom", "Clocks", "Flash Deals", "Flower vase", "Hanging Light", "Home page", "Kitchen", "Sofa", "Tables"],
@@ -13,7 +13,7 @@
   {
     "id":2,
     "name": "Biamond Halo Stud Aenean",
-    "price": "$300.00",
+    "price": "300.00",
     "offers": false,
     "img": "img/Biamond Halo Stud Aenean.webp",
     "overlay": "img/Biamond Halo Stud Aenean(1).webp",
@@ -24,7 +24,7 @@
   {
     "id":3,
     "name": "Diamond Halo Stud Aenean",
-    "price": "$369.00",
+    "price": "369.00",
     "offers": false,
     "img": "img/Diamond Halo Stud Aenean.webp",
     "overlay": "img/Diamond Halo Stud Aenean(1).webp",
@@ -48,8 +48,8 @@
     "name": "Acamond Halo Stud Conse",
     "price": "$198.00",
     "offers": "-64%",
-    "img": "/public/img/Acamond_Halo_ Stud_Conse_(1).webp",
-    "overlay": "/public/img/Acamond_Halo_ Stud_Conse_(2).webp",
+    "img": "img/Acamond_Halo_ Stud_Conse_(1).webp",
+    "overlay": "img/Acamond_Halo_ Stud_Conse_(2).webp",
     "category": ["Armchair", "Bathroom", "Clocks", "Flash Deals", "Hanging Light", "Home page", "Planter", "Sofa", "Tables"],
     "SKU": "E-00024",
     "tag": ["Pink"]
