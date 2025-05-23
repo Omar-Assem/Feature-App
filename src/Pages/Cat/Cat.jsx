@@ -19,10 +19,10 @@ const Cat = () => {
 
   return (
     <>
-  <div className="container">
+ <div className="container">
       <div className="row justify-content-center wish">
         {data.map((e) => (
-          <div className=" col-md-3 col-sm-4 col-6 mb-4" key={e.id}>
+          <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-4" key={e.id}>
             <div
               className="card position-relative"
               style={{ width: "167px", height: "335px", overflow: "hidden" }}

@@ -3,9 +3,9 @@ import { FaFilter } from "react-icons/fa";
 const Filter = () => {
   return (
     <>
-      <div className="my-3" id="filter">
+      <div className="my-3 position-fixed top-50 start-0 z-3" id="filter">
         <button
-          className="btn btn-warning mb-3"
+          className="btn btn-outline-dark mb-3"
           type="button"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasFilter"
