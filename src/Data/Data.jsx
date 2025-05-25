@@ -9,30 +9,11 @@ export let Dheader = {
       url: "/Collection",
     },
     {
-      title: "Product",
-      url: "/Product",
-    },
-    {
-      title: "Other Pages",
-      url: "/Other Pages",
-    },
-    {
-      title: "Blog",
-      url: "/Blog",
+      title: "Products",
+      url: "/categories",
     },
   ],
-  icons: [
-    {
-      icon: "fa-regular fa-star",
-      url: "/Wishlist",
-      count: 0,
-    },
-    {
-      icon: "fa-solid fa-cart-shopping",
-      url: "/cart",
-      count: 0,
-    },
-  ],
+
   dropDown: [
     {
       title: "Login",
