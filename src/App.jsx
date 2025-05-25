@@ -5,13 +5,15 @@ import { SignedIn, SignedOut, RedirectToSignIn } from "@clerk/clerk-react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { LayOut } from "./LayOut.jsx";
 import Home from "./Pages/Home/Home.jsx";
-import Login  from "./Pages/Auth/Login.jsx";
+import Login from "./Pages/Auth/Login.jsx";
 
 import "swiper/modules";
 
 import Register from "./Pages/Auth/Register";
 import Error from "./Pages/Error/Error.jsx";
 import Cat from "./Pages/Cat/Cat.jsx";
+import CartPage from "./Pages/Order/Card.jsx";
+import WishListPage from "./Pages/Order/WishList.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,6 +40,14 @@ const router = createBrowserRouter([
       //   path: 'product',
       //   element: <Product />
       // },
+      {
+        path: "/cart",
+        element: <CartPage />,
+      },
+      {
+        path: "/wishlist",
+        element: <WishListPage />,
+      },
     ],
   },
   {

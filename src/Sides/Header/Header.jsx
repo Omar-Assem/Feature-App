@@ -1,7 +1,7 @@
 import { useUser, useClerk } from "@clerk/clerk-react";
 import { NavLink } from "react-router-dom";
 import { Dheader } from "../../Data/Data";
-
+import { useSelector } from "react-redux";
 
 // export const Header = () => {
 //   return (
@@ -51,7 +51,7 @@ import { Dheader } from "../../Data/Data";
 //             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
 //               {Dheader.icons.map((e, i) => (
 //                 <li
-//                   className="nav-item position-relative" 
+//                   className="nav-item position-relative"
 //                   key={i}
 //                   id={e.id}
 //                 >
@@ -108,6 +108,8 @@ import { Dheader } from "../../Data/Data";
 export const Header = () => {
   const { user } = useUser();
   const { signOut, openSignIn } = useClerk();
+  const wishlistCount = useSelector((state) => state.wishlist.items.length);
+  const cartCount = useSelector((state) => state.cart.items.length);
 
   return (
     <header>
@@ -147,39 +149,71 @@ export const Header = () => {
             </ul>
 
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-              {Dheader.icons.map((e, i) => (
-                <li className="nav-item position-relative" key={i} id={e.id}>
-                  <NavLink className="nav-link" to={e.url}>
-                    <span>
-                      <i className={e.icon}></i>
+              <li className="nav-item position-relative">
+                <NavLink className="nav-link" to="/Wishlist">
+                  <span>
+                    <i className="fa-regular fa-star"></i>
+                  </span>
+                  {wishlistCount > 0 && (
+                    <span
+                      className="position-absolute rounded-circle text-white"
+                      style={{
+                        top: "-5px",
+                        right: "-5px",
+                        fontSize: "8px",
+                        backgroundColor: "#082e21",
+                        padding: "1px 4px",
+                      }}
+                    >
+                      {wishlistCount}
                     </span>
-                    {e.count > 0 && (
-                      <span
-                        className="position-absolute rounded-circle text-white"
-                        style={{
-                          top: "-5px",
-                          right: "-5px",
-                          fontSize: "8px",
-                          backgroundColor: "#082e21",
-                          padding: "1px 4px",
-                        }}
-                      >
-                        {e.count}
-                      </span>
-                    )}
-                  </NavLink>
-                </li>
-              ))}
+                  )}
+                </NavLink>
+              </li>
 
-              {/* زر تسجيل الدخول أو تسجيل الخروج حسب حالة المستخدم */}
+              <li className="nav-item position-relative">
+                <NavLink className="nav-link" to="/cart">
+                  <span>
+                    <i className="fa-solid fa-cart-shopping"></i>
+                  </span>
+                  {cartCount > 0 && (
+                    <span
+                      className="position-absolute rounded-circle text-white"
+                      style={{
+                        top: "-5px",
+                        right: "-5px",
+                        fontSize: "8px",
+                        backgroundColor: "#082e21",
+                        padding: "1px 4px",
+                      }}
+                    >
+                      {cartCount}
+                    </span>
+                  )}
+                </NavLink>
+              </li>
+
               <li className="nav-item">
                 {user ? (
-                  <button
-                    className="btn btn-outline-danger"
-                    onClick={() => signOut()}
-                  >
-                    Logout
-                  </button>
+                  <>
+                    <img
+                      src={user.imageUrl}
+                      alt="user"
+                      style={{
+                        width: "35px",
+                        height: "35px",
+                        borderRadius: "50%",
+                        objectFit: "cover",
+                        marginRight: "10px",
+                      }}
+                    />
+                    <button
+                      className="btn btn-outline-danger"
+                      onClick={() => signOut()}
+                    >
+                      Logout
+                    </button>
+                  </>
                 ) : (
                   <button
                     className="btn btn-outline-success"
@@ -188,27 +222,6 @@ export const Header = () => {
                     Login
                   </button>
                 )}
-              </li>
-
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <i className="fa-solid fa-bars" />
-                </a>
-                <ul className="dropdown-menu">
-                  {Dheader.dropDown.map((e, i) => (
-                    <li key={i}>
-                      <NavLink className="dropdown-item" to={e.url}>
-                        {e.title}
-                      </NavLink>
-                    </li>
-                  ))}
-                </ul>
               </li>
             </ul>
           </div>
