@@ -7,23 +7,19 @@ import Carousel from "./Cursle";
 import Timer from "./Timer";
 import Gallery from "./Gallery";
 import HomeProducts from "./HomeProducts";
-import Filter from "../../Sides/Filter/Filter";
-
 
 const Home = () => {
   return (
     <>
-    
       <Hero />
       <CardHeader />
       <Future />
       <Cards3 />
       <Testimonials />
       <Carousel />
-<HomeProducts/>
+      <HomeProducts />
       <Timer />
       <Gallery />
-      
     </>
   );
 };
