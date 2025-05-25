@@ -13,7 +13,7 @@ import Filter from "../../Sides/Filter/Filter";
 const Home = () => {
   return (
     <>
-    <Filter/>
+    
       <Hero />
       <CardHeader />
       <Future />
