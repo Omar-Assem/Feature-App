@@ -9,38 +9,11 @@ export let Dheader = {
       url: "/Collection",
     },
     {
-      title: "Product",
-      url: "/Product",
-    },
-    {
-      title: "Other Pages",
-      url: "/Other Pages",
-    },
-    {
-      title: "Blog",
-      url: "/Blog",
+      title: "Products",
+      url: "/categories",
     },
   ],
-  icons: [
-    {
-      icon: "fa-solid fa-magnifying-glass",
-      url: "/Search",
-    },
-    {
-      icon: "fa-regular fa-user",
-      url: "/Login",
-    },
-    {
-      icon: "fa-regular fa-star",
-      url: "/Wishlist",
-      count: 0,
-    },
-    {
-      icon: "fa-solid fa-cart-shopping",
-      url: "/Cart",
-      count: 0,
-    },
-  ],
+
   dropDown: [
     {
       title: "Login",
@@ -216,7 +189,6 @@ export let Dcursle = [
     desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
     button: "Read MORE",
   },
-
 ];
 export let DproductDetails = [
   {

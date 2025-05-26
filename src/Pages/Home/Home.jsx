@@ -6,7 +6,7 @@ import Cards3 from "./Cards-3";
 import Carousel from "./Cursle";
 import Timer from "./Timer";
 import Gallery from "./Gallery";
-import Cat from "../Cat/Cat";
+import HomeProducts from "./HomeProducts";
 
 const Home = () => {
   return (
@@ -17,9 +17,9 @@ const Home = () => {
       <Cards3 />
       <Testimonials />
       <Carousel />
+      <HomeProducts />
       <Timer />
       <Gallery />
-      
     </>
   );
 };

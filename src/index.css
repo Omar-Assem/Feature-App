@@ -171,71 +171,55 @@ p {
 
 /* /////////////////////////////////// */
 /* product */
-.wish .card img:first-child,
-.row .card img:first-child {
+ .wish .card img:first-child {
   opacity: 1;
-  position: relative;
-  height: 335px;
+  max-height: 335px;
   transition: 1s ease-in-out;
+  object-fit: cover;
+  width: 100%;
 }
-.wish .card img:last-child,
-.row .card img:last-child {
+
+.wish .card img:last-child {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 335px;
+  max-height: 335px;
   opacity: 0;
   transition: 1s ease-in-out;
+  object-fit: cover;
 }
 
 .col-lg-2:hover .card img:first-child {
   opacity: 0;
-  object-fit: cover;
 }
 
 .col-lg-2:hover .card img:last-child {
   opacity: 1;
-  object-fit: cover;
 }
-.card {
-  position: relative;
-  width: 167px;
-  height: 335px;
-  object-fit: cover;
-  flex-wrap: wrap;
-}
-.card .icon {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  right: 25%;
-  top: 10px;
-}
+
 .card .icon span {
   background: #fff;
   padding: 10px;
   color: #082e21;
-  border: #082e21 1px solid;
-  display: inline-block;
+  border: 1px solid #082e21;
   font-size: 17px;
-  text-align: center;
   margin-top: 5px;
   transition: 1s;
   opacity: 0;
 }
-.card .icon .active,
-.card .icon span:hover {
-  background: #082e21;
-  color: #fff;
-}
+
 .card:hover .icon span {
   opacity: 1;
 }
-.card .icon span:active {
+
+.card .icon span:hover,
+.card .icon span:active,
+.card .icon .active {
   background: #082e21;
   color: #fff;
 }
+
 .card .offers span {
   position: absolute;
   top: 10px;
@@ -245,30 +229,11 @@ p {
   background: linear-gradient(135deg, #ac0404, #e74109c3);
   color: #fff;
   border-radius: 50%;
-  opacity: 1;
   z-index: 99;
-}
-.card .offers span .des {
-  opacity: 0;
-}
-.card-body {
-  z-index: 1;
-}
-.row {
-  width: 100vw;
-}
-.btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 50px auto;
+  text-align: center;
+  line-height: 28px;
 }
 
-.card4 img {
-  overflow: hidden;
-  transition: 3s ease-in;
-  object-fit: cover;
-}
 /*  */
 
 /* ////////////////////////////////// */

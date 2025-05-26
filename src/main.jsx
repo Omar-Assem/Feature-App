@@ -1,15 +1,20 @@
-import { StrictMode } from 'react';
-import { createRoot } from 'react-dom/client';
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import { ClerkProvider } from "@clerk/clerk-react";
+import { Provider } from "react-redux"; // استيراد الـ Provider
+// استيراد الـ store
+import "./index.css";
+import App from "./App.jsx";
+import { store } from "./redux/Store.js";
 
-import './index.css';
-import App from './App.jsx';
+const clerkPubKey = "pk_test_Y2xvc2luZy1iZWFyLTM3LmNsZXJrLmFjY291bnRzLmRldiQ";
 
-// import Product from './Pages/Product/Product.jsx';
-
-
-
-createRoot(document.getElementById('root')).render(
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <App/>
+    <ClerkProvider publishableKey={clerkPubKey}>
+      <Provider store={store}>
+        <App />
+      </Provider>
+    </ClerkProvider>
   </StrictMode>
 );
