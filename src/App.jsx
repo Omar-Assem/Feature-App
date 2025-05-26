@@ -11,6 +11,7 @@ import "swiper/modules";
 
 import Register from "./Pages/Auth/Register";
 import Error from "./Pages/Error/Error.jsx";
+import Product from "./Pages/Product/Product.jsx";
 const router = createBrowserRouter(
   [
     {
@@ -21,10 +22,10 @@ const router = createBrowserRouter(
           index: true,
           element: <Home />,
         },
-        // {
-        //   path: 'product',
-        //   element: <Product />
-        // },
+        {
+          path: 'product',
+          element: <Product />
+        },
       ],
     },
     {

@@ -216,5 +216,17 @@ export let Dcursle = [
     desc: "Valentine’s Day 2021 has no choice but to unfold rather differently than usual, so we already know it will be one to remember. Lorem ipsum dolor sit amet, consectetur adipisicing elit, do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim adminim veniam libero lobortis in dictum velit luctus. Donec imperdiet tincidunt interdum.",
     button: "Read MORE",
   },
-  
+
 ];
+export let DproductDetails = [
+  {
+    paragraph: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla luctus libero quis mauris vestibulum dapibus. Maecenas ullamcorper erat mi, vel consequat enim suscipit at. Pellentesque a elit at elit auctor tempus sed vitae mi Morbi blandit auctor Vestibulum sollicitudin tortor dui, quis aliquet sapien convallis sed. Sed sit amet risus quis velit lacinia gravida. Aenean interdum elementum arcu. Vivamus purus lorem, semper quis libero et. Morbi dictum orci neque.`,
+    paragraph2: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate, lectus ac pretium maximus, magna neque fermentum arcu, ut pulvinar arcu erat vel massa. Pellentesque ac arcu blandit, vestibulum tortor eget, dictum magna. Curabitur sit amet metus nulla. Pellentesque et augue et urna volutpat vestibulum vitae eget ligula. Maecenas mi augue, faucibus scelerisque facilisis in, dignissim vitae justo. Sed venenatis lectus et leo malesuada iaculis. Nunc lacinia arcu id elementum rhoncus. Duis tempor, enim vel vulputate interdum, magna sapien lacinia enim, nec lobortis quam enim eu erat. Aenean faucibus ex vitae nibh accumsan ullamcorper. Sed a orci augue. Maecenas porttitor venenatis semper.`,
+    paragraph3: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vulputate, lectus ac pretium maximus, magna neque fermentum arcu, ut pulvinar arcu erat vel massa. Pellentesque ac arcu blandit, vestibulum tortor eget, dictum magna. Curabitur sit amet metus nulla....`,
+    li1: "Ribbed and double stitched collar and armholes",
+    li2: "High-density fabric for vivid print clarity",
+    li3: "Machine-wash safe",
+    li4: "Single right rear button flap pocket",
+    li5: "Products are proudly printed in the United States",
+  }
+]
