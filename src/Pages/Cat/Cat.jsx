@@ -1,34 +1,15 @@
-import { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
+import { useMemo, useState } from "react";
 import { addToCart } from "../../redux/CartSlice";
 import { addToWishlist } from "../../redux/wishlistSlice";
-import axios from "axios";
 import Filter from "../../Sides/Filter/Filter";
+import useGetProducts from "../../hooks/UseGetPosts";
+import Loading from "../../Sides/Loading/Loading";
+import Error from "../Error/Error";
 
-
-const parsePrice = (price) => {
-  if (!price) return 0;
-  if (typeof price === "number") return price;
-  const cleaned = price.toString().replace(/[^0-9.]/g, "");
-  return parseFloat(cleaned) || 0;
-};
-
-const hasOffer = (offer) => {
-  if (offer === undefined || offer === null) return false;
-  if (typeof offer === "boolean") return offer;
-  if (typeof offer === "string") {
-    const val = offer.toLowerCase();
-    return val === "yes" || val === "true" || val === "hasoffer" || val === "1";
-  }
-  if (typeof offer === "number") return offer > 0;
-  return false;
-};
 
 const Cat = () => {
   const dispatch = useDispatch();
-
-  const [data, setData] = useState([]);
-  const [filteredData, setFilteredData] = useState([]);
   const [filters, setFilters] = useState({
     category: "",
     tag: "",
@@ -37,28 +18,10 @@ const Cat = () => {
     search: "",
   });
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const res = await axios.get("img/product.json");
+  const { data: products = [], isLoading, isError } = useGetProducts();
 
-        
-        const cleanedProducts = res.data.map((p) => ({
-          ...p,
-          price: parsePrice(p.price),
-          hasOffer: hasOffer(p.offers),
-        }));
-
-        setData(cleanedProducts);
-      } catch (err) {
-        console.log(err);
-      }
-    };
-    fetchData();
-  }, []);
-
-  useEffect(() => {
-    let temp = [...data];
+  const filteredData = useMemo(() => {
+    let temp = [...products];
 
     if (filters.search) {
       temp = temp.filter((p) =>
@@ -90,8 +53,11 @@ const Cat = () => {
       );
     }
 
-    setFilteredData(temp);
-  }, [data, filters]);
+    return temp;
+  }, [products, filters]);
+
+  if (isLoading) return <Loading/>;
+  if (isError) return <Error/>;
 
   return (
     <>
