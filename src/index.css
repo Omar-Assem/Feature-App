@@ -10,8 +10,8 @@
 }
 /* @import "tailwindcss"; */
 body {
-  font-family: reguler;
-  overflow-x: hidden;
+  
+  overflow-x: hidden !important; 
   position: relative;
 }
 h2 {

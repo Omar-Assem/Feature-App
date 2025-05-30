@@ -9,9 +9,9 @@ const Cards3 = () => {
             {Dcards3.map((e, i) => {
               return (
                 <>
-                  <div className="col-lg-4 col-md-6 col-sm-12 py-4 my-4" key={i}>
-                    <div className="card4 position-relative" >
-                      <img src={e.img} alt={e.title} loading="lazy" />
+                  <div className="col-lg-6 col-md-6 col-sm-12  my-4 " key={i}>
+                    <div className="card4 position-relative"  >
+                      <img src={e.img} alt={e.title} loading="lazy" style={{width:"30rem"}} />
                       <h2 className="position-absolute  start-0 bottom-50">
                         {e.title}
                       </h2>
