@@ -6,7 +6,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { LayOut } from "./LayOut.jsx";
 import Home from "./Pages/Home/Home.jsx";
 import Login from "./Pages/Auth/Login.jsx";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "swiper/modules";
 
 import Register from "./Pages/Auth/Register";
@@ -15,6 +17,7 @@ import Cat from "./Pages/Cat/Cat.jsx";
 import CartPage from "./Pages/Order/Card.jsx";
 import WishListPage from "./Pages/Order/WishList.jsx";
 import Product from "./Pages/Product/Product.jsx";
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -38,8 +41,8 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: 'product/:id',
-        element: <Product />
+        path: "product/:id",
+        element: <Product />,
       },
       {
         path: "/cart",
@@ -66,6 +69,14 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // مدة الـ animation
+      once: true, // الـ animation يحصل مرة واحدة بس
+      offset: 100, // المسافة قبل ما الـ animation يبدأ
+    });
+  }, []);
+
   return <RouterProvider router={router} />;
 }
 

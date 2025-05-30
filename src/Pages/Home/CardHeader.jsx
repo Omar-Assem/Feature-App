@@ -8,7 +8,7 @@ const CardHeader = () => {
           {DcardHeader.map((card, index) => (
             <div
               key={index}
-              className={`col-lg-4 col-sm-6 `}
+              className={`col-lg-4 col-md-6 col-sm-12 `}
               id={index === 1 ? "x" : ""}
             >
               <div className={`card ${index === 1 ? "different-style" : ""}`}>

@@ -59,7 +59,7 @@ const Timer = () => {
 
                 </div>
                 <div className="btn">
-                  <button className="btn btn-dark mx-5">SHOP NOW</button>
+                  <button className="btn btn-success  mx-5">SHOP NOW</button>
                 </div>
               </div>
             </div>

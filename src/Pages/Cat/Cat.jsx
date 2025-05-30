@@ -6,9 +6,13 @@ import Filter from "../../Sides/Filter/Filter";
 import useGetProducts from "../../hooks/UseGetPosts";
 import Loading from "../../Sides/Loading/Loading";
 import Error from "../Error/Error";
-
-
+import { Link } from "react-router-dom";
+import { FaShoppingCart, FaHeart } from "react-icons/fa";
+import { BsBoxArrowInRight } from "react-icons/bs";
+import { useSelector } from "react-redux";
 const Cat = () => {
+  const wishlistItems = useSelector((state) => state.wishlist.items);
+  const cartItems = useSelector((state) => state.cart.items);
   const dispatch = useDispatch();
   const [filters, setFilters] = useState({
     category: "",
@@ -48,16 +52,17 @@ const Cat = () => {
     if (filters.priceRange) {
       temp = temp.filter(
         (p) =>
-          p.price >= filters.priceRange[0] &&
-          p.price <= filters.priceRange[1]
+          p.price >= filters.priceRange[0] && p.price <= filters.priceRange[1]
       );
     }
 
     return temp;
   }, [products, filters]);
 
-  if (isLoading) return <Loading/>;
-  if (isError) return <Error/>;
+  if (isLoading) return <Loading />;
+  if (isError) return <Error />;
+  const isInWishlist = wishlistItems.some((item) => item.id === e.id);
+  const isInCart = cartItems.some((item) => item.id === e.id);
 
   return (
     <>
@@ -80,27 +85,32 @@ const Cat = () => {
                 </div>
 
                 <div className="icon position-absolute top-0 end-0 d-flex flex-column align-items-center">
-                  <span>
-                    <button
-                      onClick={() => dispatch(addToWishlist(e))}
-                      className="btn"
-                      title="Add to Wishlist"
-                    >
-                      <i className="fa-solid fa-heart" />
-                    </button>
-                  </span>
-                  <span>
-                    <button
-                      onClick={() => dispatch(addToCart(e))}
-                      className="btn"
-                      title="Add to Cart"
-                    >
-                      <i className="fa-solid fa-cart-shopping" />
-                    </button>
-                  </span>
-                  <span>
-                    <i className="fa-solid fa-right-to-bracket" />
-                  </span>
+                  <button
+                    onClick={() => dispatch(addToWishlist(e))}
+                    className="btn btn-outline-success"
+                    title="Add to Wishlist"
+                  >
+                    <FaHeart
+                      style={{ color: isInWishlist ? "red" : "yellowgreen" }}
+                    />
+                  </button>
+
+                  <button
+                    onClick={() => dispatch(addToCart(e))}
+                    className="btn btn-outline-success"
+                    title="Add to Cart"
+                  >
+                    <FaShoppingCart
+                      style={{ color: isInCart ? "green" : "yellowgreen" }}
+                    />
+                  </button>
+
+                  <Link
+                    to={`/product/${e.id}`}
+                    className="btn btn-outline-success"
+                  >
+                    <BsBoxArrowInRight style={{ color: "yellowgreen" }} />
+                  </Link>
                 </div>
 
                 <div className="card-text text-center">

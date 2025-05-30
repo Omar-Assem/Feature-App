@@ -9,26 +9,26 @@ export const Footer = () => {
             style={{ margin: "50px 0px" }}
           >
             <img
-              src="Logo.webp"
+              src="/Logo.webp"
               alt="logo"
               style={{ width: "190px", height: "47px" }}
             />
             <p className="mt-3">
-              <i className="fa-solid fa-location-dot me-2" />
+              <i style={{color:"yellowgreen"}} className="fa-solid fa-location-dot me-2" />
               2357 Gordon Street, CA
             </p>
             <h4 style={{ fontSize: "20px", margin: "20px 0" }}>
-              <i className="fa-solid fa-user me-2" />
+              <i style={{color:"yellowgreen"}} className="fa-solid fa-user me-2" />
               <a
                 href="#"
-                className="text-decoration-none text-dark"
+                className="text-decoration-none text-dark "
                 style={{ transition: "color 0.3s" }}
               >
                 0123 456 789
               </a>
             </h4>
             <h4 style={{ fontSize: "20px", margin: "20px 0" }}>
-              <i className="fa-solid fa-envelope me-2" />
+              <i style={{color:"yellowgreen"}} className="fa-solid fa-envelope me-2 " />
               <a
                 href="#"
                 className="text-decoration-none text-dark"
@@ -109,7 +109,7 @@ export const Footer = () => {
                 className="form-control mb-2"
                 style={{ padding: "10px" }}
               />
-              <button className="btn btn-dark">Submit</button>
+              <button className="btn btn-success">Submit</button>
             </div>
             <div
               className="icons mt-4"

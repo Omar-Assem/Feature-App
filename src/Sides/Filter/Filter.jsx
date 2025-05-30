@@ -2,7 +2,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 
-
 const parsePrice = (price) => {
   if (!price) return 0;
   if (typeof price === "number") return price;
@@ -28,7 +27,7 @@ const Filter = ({ onFilterChange }) => {
   const [filters, setFilters] = useState({
     category: "",
     tag: "",
-    offers: "", 
+    offers: "",
     priceRange: [0, 1000],
     search: "",
   });
@@ -54,14 +53,12 @@ const Filter = ({ onFilterChange }) => {
         const allTags = cleanedProducts.flatMap((p) => p.tag || []);
         setUniqueTags([...new Set(allTags)]);
 
-        
         const prices = cleanedProducts.map((p) => p.price);
         const minP = Math.min(...prices);
         const maxP = Math.max(...prices);
         setMinPrice(minP);
         setMaxPrice(maxP);
 
-        
         const initialFilters = { ...filters, priceRange: [minP, maxP] };
         setFilters(initialFilters);
         if (onFilterChange) onFilterChange(initialFilters);
@@ -101,15 +98,20 @@ const Filter = ({ onFilterChange }) => {
   return (
     <div className="my-3 position-fixed top-50 start-0 z-3" id="filter">
       <button
-        className="btn btn-outline-dark mb-3"
+        className="btn btn-success mb-3"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasFilter"
       >
-        <FaFilter className="me-2" />Filter
+        <FaFilter className="me-2" />
+        Filter
       </button>
 
-      <div className="offcanvas offcanvas-start" tabIndex="-1" id="offcanvasFilter">
+      <div
+        className="offcanvas offcanvas-start"
+        tabIndex="-1"
+        id="offcanvasFilter"
+      >
         <div className="offcanvas-header">
           <h5 className="offcanvas-title">Filter Options</h5>
           <button

@@ -29,7 +29,7 @@ const Carousel = () => {
                     <h3>{e.title}</h3>
                     <p className="text-secondary">{e.desc}</p>
                     <div className="mx-5 mt-2">
-                      <button className="btn btn-dark">{e.button}</button>
+                      <button className="btn btn-success">{e.button}</button>
                     </div>
                   </div>
                 </div>

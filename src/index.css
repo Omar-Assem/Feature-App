@@ -171,9 +171,9 @@ p {
 
 /* /////////////////////////////////// */
 /* product */
- .wish .card img:first-child {
+.wish .card img:first-child {
   opacity: 1;
-  max-height: 335px;
+ 
   transition: 1s ease-in-out;
   object-fit: cover;
   width: 100%;
@@ -184,7 +184,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  max-height: 335px;
+ 
   opacity: 0;
   transition: 1s ease-in-out;
   object-fit: cover;
@@ -198,26 +198,17 @@ p {
   opacity: 1;
 }
 
-.card .icon span {
-  background: #fff;
+.card .btn {
   padding: 10px;
-  color: #082e21;
-  border: 1px solid #082e21;
+
   font-size: 17px;
   margin-top: 5px;
   transition: 1s;
   opacity: 0;
 }
 
-.card:hover .icon span {
+.card:hover .btn {
   opacity: 1;
-}
-
-.card .icon span:hover,
-.card .icon span:active,
-.card .icon .active {
-  background: #082e21;
-  color: #fff;
 }
 
 .card .offers span {
@@ -289,9 +280,8 @@ p {
   color: gray;
 }
 /* loading */
-.Loading{
+.Loading {
   height: 100vh;
-
 }
 .loader {
   transform: rotateZ(45deg);
@@ -301,24 +291,24 @@ p {
   height: 48px;
   color: #aa8453;
 }
-  .loader:before,
-  .loader:after {
-    content: '';
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: inherit;
-    height: inherit;
-    border-radius: 50%;
-    transform: rotateX(70deg);
-    animation: 1s spin linear infinite;
-  }
-  .loader:after {
-    color: #082e21;
-    transform: rotateY(70deg);
-    animation-delay: .4s;
-  }
+.loader:before,
+.loader:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  border-radius: 50%;
+  transform: rotateX(70deg);
+  animation: 1s spin linear infinite;
+}
+.loader:after {
+  color: #082e21;
+  transform: rotateY(70deg);
+  animation-delay: 0.4s;
+}
 
 @keyframes rotate {
   0% {
@@ -341,27 +331,27 @@ p {
 @keyframes spin {
   0%,
   100% {
-    box-shadow: .2em 0px 0 0px currentcolor;
+    box-shadow: 0.2em 0px 0 0px currentcolor;
   }
   12% {
-    box-shadow: .2em .2em 0 0 currentcolor;
+    box-shadow: 0.2em 0.2em 0 0 currentcolor;
   }
   25% {
-    box-shadow: 0 .2em 0 0px currentcolor;
+    box-shadow: 0 0.2em 0 0px currentcolor;
   }
   37% {
-    box-shadow: -.2em .2em 0 0 currentcolor;
+    box-shadow: -0.2em 0.2em 0 0 currentcolor;
   }
   50% {
-    box-shadow: -.2em 0 0 0 currentcolor;
+    box-shadow: -0.2em 0 0 0 currentcolor;
   }
   62% {
-    box-shadow: -.2em -.2em 0 0 currentcolor;
+    box-shadow: -0.2em -0.2em 0 0 currentcolor;
   }
   75% {
-    box-shadow: 0px -.2em 0 0 currentcolor;
+    box-shadow: 0px -0.2em 0 0 currentcolor;
   }
   87% {
-    box-shadow: .2em -.2em 0 0 currentcolor;
+    box-shadow: 0.2em -0.2em 0 0 currentcolor;
   }
 }

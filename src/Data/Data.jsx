@@ -71,22 +71,22 @@ export let DcardHeader = [
 ];
 export let Dfuture = [
   {
-    img: "icon-5-1_200x.webp",
+    img: "/icon-5-1_200x.webp",
     title: "Extra Shipping",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
   },
   {
-    img: "icon-5-2_200x.webp",
+    img: "/icon-5-2_200x.webp",
     title: "Return Policy",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
   },
   {
-    img: "icon-5-3_200x.png",
+    img: "/icon-5-3_200x.png",
     title: "Payment Secured",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
   },
   {
-    img: "icon-5-4_200x.webp",
+    img: "/icon-5-4_200x.webp",
     title: "Money Back Guarantee",
     p: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
   },

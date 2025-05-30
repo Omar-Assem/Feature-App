@@ -117,7 +117,7 @@ export const Header = () => {
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             <img
-              src="Logo.webp"
+              src="/Logo.webp"
               alt="Logo"
               style={{ width: "160px", height: "36px" }}
             />
