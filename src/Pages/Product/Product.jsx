@@ -16,7 +16,8 @@ const Product = () => {
     const fetchData = async () => {
       try {
         const res = await axios.get("/img/product.json");
-        setData(res.data.map((item) => ({ ...item, count: 0 })));
+        console.log(res.data)
+        setData(res.data.map((item) => ({ ...item })));
       
       } catch (err) {
         console.log(err);
@@ -38,7 +39,7 @@ const Product = () => {
     setToastVisible(true);
   };
 
-  const item = data.find((product) => product.id === id);
+  const item = data.find((product) => product.id.toString() === id);
   if (!item) return <Loading />;
 
   return (
@@ -58,24 +59,11 @@ const Product = () => {
                 alt="overlay image"
               />
             </div>
-            <div className="icon position-absolute top-0 end-0 d-flex flex-column align-items-center">
-              <span>
-                <i
-                  className="fa-solid fa-heart"
-                  style={{ cursor: "pointer" }}
-                  onClick={() => handleAddToWishlist(item.name)}
-                ></i>
-              </span>
-              <span>
-                <i className="fa-solid fa-cart-shopping"></i>
-              </span>
-              <span>
-                <i className="fa-solid fa-circle-xmark"></i>
-              </span>
-            </div>
+       
             <div className="card-body">
               <h5 className="card-title">{item.name}</h5>
               <h5 className="card-price d-inline">{item.price}</h5>
+           
               <span className="bg-danger rounded-circle p-1 text-light ms-2">
                 ${item.offers || ""}
               </span>
@@ -83,10 +71,12 @@ const Product = () => {
           </div>
         </div>
         <div className="txt col-lg-9">
+    
           <p>{item.description || "No description available."}</p>
           <p><strong>Tags: {item.tag}</strong></p>
           <p><strong>SKU: {item.SKU}</strong></p>
           <p><strong>Category: {item.category}</strong></p>
+          
           <input
             type="number"
             placeholder="Count"
@@ -94,6 +84,19 @@ const Product = () => {
             value={item.count}
             onChange={(e) => handleCountChange(e.target.value)}
           />
+              <div className="d-flex  w-25">
+              <span>
+                <i
+                  className="fa-solid fa-heart mx-5"
+                  style={{ cursor: "pointer" }}
+                  onClick={() => handleAddToWishlist(item.name)}
+                ></i>
+              </span>
+              <span>
+                <i className="fa-solid fa-cart-shopping"></i>
+              </span>
+             
+              </div>
           <div>
             Total: { item.count * Number(item.price.replace(/[^0-9.]/g, ""))}$
           </div>
