@@ -17,7 +17,7 @@ const Product = () => {
       try {
         const res = await axios.get("/img/product.json");
         console.log(res.data)
-        setData(res.data.map((item) => ({ ...item })));
+       setData(res.data.map((item) => ({ ...item, count: 0 })));
       
       } catch (err) {
         console.log(err);
@@ -98,7 +98,7 @@ const Product = () => {
              
               </div>
           <div>
-            Total: { item.count * Number(item.price.replace(/[^0-9.]/g, ""))}$
+               Total: {(item.count ?? 0) * (+item.price || 0)}$
           </div>
           <h6>
             <i className="fa-regular fa-clock" /> Orders ship within 5 to 10
