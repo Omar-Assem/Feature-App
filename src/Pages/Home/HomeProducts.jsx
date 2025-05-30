@@ -34,63 +34,56 @@ const HomeProducts = () => {
             const isInCart = cartItems.some((item) => item.id === e.id);
 
             return (
+              
+              <div className="col-lg-2 col-md-3 col-sm-4 col-6 mb-4" key={e.id}>
               <div
-                className="col-lg-2 col-md-6 col-sm-12 col-6 mb-4 "
-                key={e.id}
-                data-aos="zoom-in-down"
+                className="card position-relative"
+                style={{ width: "167px", height: "335px", overflow: "hidden" }}
               >
-                <div
-                  className="card position-relative"
-                  style={{
-                    width: "167px",
-                    height: "335px",
-                    overflow: "hidden",
-                  }}
-                >
-                  <div className="offers text-center">
-                    {e.offers && <span>{e.offers}</span>}
-                  </div>
-
-                  <div className="img-continar position-relative">
-                    <img src={e.img} alt={e.name} />
-                    <img src={e.overlay} className="overlay" alt={e.name} />
-                  </div>
-
-                  <div className="icon position-absolute top-0 end-0 d-flex flex-column align-items-center">
-                    <button
-                      onClick={() => dispatch(addToWishlist(e))}
-                      className="btn btn-outline-success"
-                      title="Toggle Wishlist"
-                    >
-                      <FaHeart
-                        style={{ color: isInWishlist ? "red" : "yellowgreen" }}
-                      />
-                    </button>
-
-                    <button
-                      onClick={() => dispatch(addToCart(e))}
-                      className="btn btn-outline-success"
-                      title="Toggle Cart"
-                    >
-                      <FaShoppingCart
-                        style={{ color: isInCart ? "green" : "yellowgreen" }}
-                      />
-                    </button>
-
-                    <Link
-                      to={`/product/${e.id}`}
-                      className="btn btn-outline-success"
-                    >
-                      <BsBoxArrowInRight style={{ color: "yellowgreen" }} />
-                    </Link>
-                  </div>
+                <div className="offers text-center">
+                  {e.hasOffer && <span>Has Offer</span>}
                 </div>
 
-                <div className="card-body text-center">
+                <div className="img-continar position-relative">
+                  <img src={e.img} alt={e.name} />
+                  <img src={e.overlay} className="overlay" alt={e.name} />
+                </div>
+
+                <div className="icon position-absolute top-0 end-0 d-flex flex-column align-items-center">
+                  <button
+                    onClick={() => dispatch(addToWishlist(e))}
+                    className="btn btn-outline-success"
+                    title="Add to Wishlist"
+                  >
+                    <FaHeart
+                      style={{ color: isInWishlist ? "red" : "yellowgreen" }}
+                    />
+                  </button>
+
+                  <button
+                    onClick={() => dispatch(addToCart(e))}
+                    className="btn btn-outline-success"
+                    title="Add to Cart"
+                  >
+                    <FaShoppingCart
+                      style={{ color: isInCart ? "green" : "yellowgreen" }}
+                    />
+                  </button>
+
+                  <Link
+                    to={`/product/${e.id}`}
+                    className="btn btn-outline-success"
+                  >
+                    <BsBoxArrowInRight style={{ color: "yellowgreen" }} />
+                  </Link>
+                </div>
+
+                <div className="card-text text-center">
                   <h5 className="card-title">{e.name}</h5>
                   <h5 className="card-price">{e.price}</h5>
                 </div>
               </div>
+            </div>
             );
           })}
         </div>
