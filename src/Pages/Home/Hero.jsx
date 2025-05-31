@@ -29,11 +29,11 @@ const Hero = () => {
     >
       {Dhero.map((slide, i) => (
         <SwiperSlide key={i}>
-          <div className="position-relative" style={{ height: "100vh" }}>
+          <div className="position-relative" style={{ height: "100vh" , width:"100%" }}>
             <img
               src={slide.img}
               alt={slide.title}
-              className="w-100 h-100"
+              className=""
               style={{ objectFit: "cover", filter: "brightness(60%)" }}
               loading="lazy"
             />

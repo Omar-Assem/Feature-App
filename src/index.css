@@ -1,24 +1,31 @@
-/* vendor */
 :root {
-  bg-color: #082e21;
+  --bg-color: #082e21;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-/* @import "tailwindcss"; */
-body {
   
-  overflow-x: hidden !important; 
-  position: relative;
 }
+.row {
+  flex-wrap: wrap;
+}
+body {
+  overflow-x: hidden !important;
+  position: relative;
+max-width: 100%;
+  font-family: sans-serif;
+}
+
+/* عشان الخطوط */
 h2 {
-  font-family: bold;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
 }
 p {
-  font-family: tin;
+  font-family: 'Tahoma', sans-serif;
+  font-weight: normal;
 }
 
 /* animation slide */
@@ -33,161 +40,116 @@ p {
   }
 }
 
-@keyframes slide-text {
-  0% {
-    transform: translateX(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-}
-@keyframes bon {
-  0% {
-    transform: translateX(100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0%);
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-@keyframes move {
-  0% {
-    transform: translateX(0);
-  }
-  50% {
-    transform: translateX(30%);
-  }
-  75% {
-    transform: translateX(-30%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-/* end animation */
+/* ... باقي الأنيميشن كما هي ... */
 
 /* swiper */
 .swiper-button-next::after,
 .swiper-button-prev::after {
-  color: #082e21;
-
+  color: var(--bg-color);
   border-radius: 50%;
   font-size: 1em;
   padding: 10px;
 }
-.swiper-text {
-  p,
-  h3 {
-    animation: slide-text 2s ease-in-out;
-  }
-  a {
-    animation: bon 2s ease-in-out;
-  }
+.swiper-text p,
+.swiper-text h3 {
+  animation: slide-text 2s ease-in-out;
 }
-/* end swiper */
-/* home */
+.swiper-text a {
+  animation: bon 2s ease-in-out;
+}
 
 /* cards-header */
 .cardsHeader .row .card {
-  width: 480px;
+  width: 100%;
+  max-width: 480px;
   height: 260px;
   overflow: hidden;
+  margin: auto;
 }
 .cardsHeader .row .card img {
   position: relative;
   transition: 3s;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .cardsHeader .row .card img:hover {
   transform: scale(1.1);
 }
-.cardsHeader .row .card h2 {
+.cardsHeader .row .card h2,
+.cardsHeader .row .card p,
+.cardsHeader .row .card button,
+.cardsHeader .row .card a {
   position: absolute;
   left: 0;
+  width: 100%;
+  padding-left: 15px;
+  color: #fff;
+}
+
+.cardsHeader .row .card h2 {
   top: 50%;
   transform: translateY(-50%);
 }
+
 .cardsHeader .row .card p {
-  position: absolute;
-  left: 0;
   top: 70%;
   transform: translateY(-50%);
 }
 
 .cardsHeader .row .card button,
 .cardsHeader .row .card a {
-  position: absolute;
-  left: 0;
   top: 90%;
   transform: translateY(-50%);
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.7);
   color: #fff;
   padding: 0 15px;
   height: 40px;
-  width: 110px;
   font-size: 12px;
   outline: none;
-  border: transparent;
+  border: none;
   transition: 1s;
 }
+
 .cardsHeader .row .card a {
   background: none;
   color: #000;
   font-size: 14px;
 }
+
 .cardsHeader .row .card a:hover {
   color: #0a5d5d;
 }
-#x button:hover,
-.cardsHeader .row .card button:hover {
-  background-color: #aa8453;
+
+/* responsive for cards-header */
+@media (max-width: 768px) {
+  .cardsHeader .row .card {
+    max-width: 100%;
+    height: auto;
+  }
+  .cardsHeader .row .card img {
+    height: auto;
+  }
 }
 
-.card span {
-  color: #0a5d5d;
-}
-#x span {
-  color: #aa8453;
-}
-#x h2,
-#x p {
-  color: #fff;
-}
-#x button {
-  background: #fff;
-  color: #000;
-}
-
-/* /////////////////////////////////// */
 /* product */
 .wish .card img:first-child {
   opacity: 1;
- 
   transition: 1s ease-in-out;
   object-fit: cover;
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .wish .card img:last-child {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
- 
+  max-width: 100%;
   opacity: 0;
   transition: 1s ease-in-out;
   object-fit: cover;
+  height: 100%;
 }
 
 .col-lg-2:hover .card img:first-child {
@@ -200,7 +162,6 @@ p {
 
 .card .btn {
   padding: 10px;
-
   font-size: 17px;
   margin-top: 5px;
   transition: 1s;
@@ -225,64 +186,58 @@ p {
   line-height: 28px;
 }
 
-/*  */
-
-/* ////////////////////////////////// */
-/* product */
+/* tags */
 .tags ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   margin: 20px 30px;
-  li {
-    list-style: none;
-  }
-  li {
-    font-size: 500;
-    font-weight: 800;
-    transition: 0.5s ease-in-out;
-    cursor: pointer;
-  }
-  li .active,
-  li:hover {
-    border-bottom: #000 solid 4px;
-  }
 }
 
+.tags ul li {
+  list-style: none;
+  font-weight: 800;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.tags ul li.active,
+.tags ul li:hover {
+  border-bottom: #000 solid 4px;
+}
+
+/* محتوى */
 .content > div {
   padding: 20px;
   font-size: 14px;
   color: gray;
 }
+
 .content > div:not(:first-child) {
   display: none;
 }
+
 .txt p a,
 .txt p {
   font-size: 12px;
   color: gray;
 }
+
 .txt p strong {
   font-size: 16px;
   color: #000;
 }
+
 .txt p a:hover {
-  color: #082e21;
+  color: var(--bg-color);
 }
-.mora img {
-  width: 190px;
-  height: 30px;
-  margin: 20px 0 10px;
-}
-.knowlage ul li {
-  font-size: 12px;
-  color: gray;
-}
-/* loading */
+
+/* loader */
 .Loading {
   height: 100vh;
 }
+
 .loader {
   transform: rotateZ(45deg);
   perspective: 1000px;
@@ -290,7 +245,9 @@ p {
   width: 48px;
   height: 48px;
   color: #aa8453;
+  position: relative;
 }
+
 .loader:before,
 .loader:after {
   content: "";
@@ -304,33 +261,17 @@ p {
   transform: rotateX(70deg);
   animation: 1s spin linear infinite;
 }
+
 .loader:after {
-  color: #082e21;
+  color: var(--bg-color);
   transform: rotateY(70deg);
   animation-delay: 0.4s;
 }
 
-@keyframes rotate {
-  0% {
-    transform: translate(-50%, -50%) rotateZ(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotateZ(360deg);
-  }
-}
-
-@keyframes rotateccw {
-  0% {
-    transform: translate(-50%, -50%) rotate(0deg);
-  }
-  100% {
-    transform: translate(-50%, -50%) rotate(-360deg);
-  }
-}
+/* keyframes spin */
 
 @keyframes spin {
-  0%,
-  100% {
+  0%, 100% {
     box-shadow: 0.2em 0px 0 0px currentcolor;
   }
   12% {

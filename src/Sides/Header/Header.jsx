@@ -113,7 +113,7 @@ export const Header = () => {
 
   return (
     <header>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg ">
         <div className="container">
           <NavLink className="navbar-brand" to="/">
             <img

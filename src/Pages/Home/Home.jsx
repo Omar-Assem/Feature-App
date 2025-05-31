@@ -5,13 +5,14 @@ import Testimonials from "./Testimonials";
 import Cards3 from "./Cards-3";
 import Carousel from "./Cursle";
 import Timer from "./Timer";
-import Gallery from "./Gallery";
+// import Gallery from "./Gallery";
 import HomeProducts from "./HomeProducts";
 
 const Home = () => {
   return (
     <>
-      <Hero />
+    
+    <Hero />
       <CardHeader />
       <Future />
       <Cards3 />
@@ -20,7 +21,9 @@ const Home = () => {
 
       <HomeProducts />
       <Timer />
-      <Gallery />
+      {/* <Gallery /> */}
+   
+ 
     </>
   );
 };
